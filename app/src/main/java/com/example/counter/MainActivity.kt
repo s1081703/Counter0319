@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity()/*, View.OnClickListener, View.OnLongCli
     }
 
     fun Add(v:View){
-        if(v.id == R.id.btn){
+        //if(v.id == R.id.btn){
+        if(v == btn){
             counter++
         }
         else{
