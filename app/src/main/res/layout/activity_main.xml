@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/txvvb"
+    android:id="@+id/txvb"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -24,7 +24,6 @@
         android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="Add"
         android:text="加一"
         android:textSize="36sp" />
 
@@ -32,8 +31,14 @@
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="Add"
         android:text="加二"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歸零"
         android:textSize="36sp" />
 
     <Button
@@ -43,12 +48,10 @@
         android:text="樂透"
         android:textSize="36sp" />
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="震動"
-        android:textSize="36sp" />
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/zhongli" />
 
 </LinearLayout>
